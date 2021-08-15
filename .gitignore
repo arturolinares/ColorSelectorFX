@@ -28,14 +28,7 @@
 hs_err_pid*
 
 ### Maven ###
-target/classes/*
-!target/classes/META-INF
-target/generated-sources
-target/gluonfx
-target/maven-archiver
-target/maven-status
-target/test-classes
-target/*.jar
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
