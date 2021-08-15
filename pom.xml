@@ -86,6 +86,10 @@
 				<version>1.0.4</version>
 				<configuration>
 					<mainClass>com.alinares.colorselectorfx.App</mainClass>
+					<enableSWRendering>true</enableSWRendering>
+					<nativeImageArgs>
+					      <arg>-Dprism.verbose=true</arg>
+					</nativeImageArgs>
 				</configuration>
 			</plugin>
 
