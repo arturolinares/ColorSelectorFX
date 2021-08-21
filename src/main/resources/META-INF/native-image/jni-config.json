@@ -65,6 +65,15 @@
   ]
 },
 {
+  "name":"com.sun.javafx.font.freetype.FT_Matrix",
+  "fields":[
+    {"name":"xx"}, 
+    {"name":"xy"}, 
+    {"name":"yx"}, 
+    {"name":"yy"}
+  ]
+},
+{
   "name":"com.sun.javafx.geom.Path2D",
   "methods":[{"name":"<init>","parameterTypes":["int","byte[]","int","float[]","int"] }]
 },
@@ -74,7 +83,8 @@
 },
 {
   "name":"com.sun.pisces.JavaSurface",
-  "fields":[{"name":"dataInt"}]
+  "fields":[{"name":"dataInt"}],
+  "methods":[{"name":"initialize","parameterTypes":["int","int","int"] }]
 },
 {
   "name":"com.sun.pisces.PiscesRenderer",
