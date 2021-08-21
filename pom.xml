@@ -63,6 +63,7 @@
 					<nativeImageArgs>
 						<arg>-Dprism.order=sw</arg>
 					</nativeImageArgs>
+					<enableSWRendering>true</enableSWRendering>
 				</configuration>
 			</plugin>
 
