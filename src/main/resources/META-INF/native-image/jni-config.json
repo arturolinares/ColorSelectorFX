@@ -83,8 +83,7 @@
 },
 {
   "name":"com.sun.pisces.JavaSurface",
-  "fields":[{"name":"dataInt"}],
-  "methods":[{"name":"initialize","parameterTypes":["int","int","int"] }]
+  "fields":[{"name":"dataInt"}]
 },
 {
   "name":"com.sun.pisces.PiscesRenderer",

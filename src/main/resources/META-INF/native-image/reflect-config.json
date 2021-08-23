@@ -33,11 +33,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
-  "name":"com.sun.pisces.JavaSurface",
-  "fields":[{"name":"dataInt"}],
-  "methods":[{"name":"initialize","parameterTypes":["int","int","int"] }]
-},
-{
   "name":"com.sun.prism.GraphicsPipeline",
   "methods":[
     {"name":"getFontFactory","parameterTypes":[] }, 

@@ -50,6 +50,9 @@
 				<version>${javafx.plugin.version}</version>
 				<configuration>
 					<mainClass>${main.class}</mainClass>
+					<options>
+						<!--<option>-Dprism.order=sw</option>-->
+					</options>
 				</configuration>
 			</plugin>
 	    
@@ -57,12 +60,12 @@
 			<plugin>
 				<groupId>com.gluonhq</groupId>
 				<artifactId>gluonfx-maven-plugin</artifactId>
-				<version>1.0.4</version>
+				<version>1.0.3</version>
 				<configuration>
 					<mainClass>${main.class}</mainClass>
-					<nativeImageArgs>
-						<arg>-Dprism.order=sw</arg>
-					</nativeImageArgs>
+					<runtimeArgs>
+						<!--<arg>-Dprism.order=sw</arg>-->
+					</runtimeArgs>
 					<enableSWRendering>true</enableSWRendering>
 				</configuration>
 			</plugin>
